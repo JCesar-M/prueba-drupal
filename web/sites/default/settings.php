@@ -771,8 +771,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 $databases['default']['default'] = array (
   'database' => 'alpha',
-  'username' => 'alpha',
-  'password' => '12345-6',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -780,3 +780,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_CWOjazYW5D7DTGLlBMsEiqsTiXAW_Woe1q-vxI6KLRzcHT4kEo3D3QTOiSYFqSqhJhwuRuDDnw/sync';
+$config['system.logging']['error_level']='verbose';
+?>
